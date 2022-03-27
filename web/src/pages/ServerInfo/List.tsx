@@ -64,7 +64,8 @@ const ServerInfo: React.FC = () => {
   }, []);
 
   return (
-    <PageContainer title={formatMessage({ id: 'page.systemStatus.pageContainer.title' })}>
+    <>
+    // <PageContainer title={formatMessage({ id: 'page.systemStatus.pageContainer.title' })}>
       <Card
         title={formatMessage({ id: 'page.systemStatus.dashboardInfo' })}
         bodyStyle={{ padding: 0 }}
@@ -139,7 +140,8 @@ const ServerInfo: React.FC = () => {
           )}
         </div>
       </Card>
-    </PageContainer>
+    // </PageContainer>
+    </>
   );
 };
 

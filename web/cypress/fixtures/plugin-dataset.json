@@ -1,4 +1,47 @@
 {
+  "authz-casbin": [
+    {
+      "type": "consumer",
+      "shouldValid": true,
+      "data": {
+        "model_path":"/path/to/model.conf",
+        "policy_path": "/path/to/policy.csv",
+        "username": "user"
+      }
+    },
+    {
+      "type": "consumer",
+      "shouldValid": false,
+      "data": {
+        "model_path":"/path/to/model.conf",
+        "policy_path": "/path/to/policy.csv",
+        "username": "user"
+      }
+    },
+    {
+      "type": "consumer",
+      "shouldValid": false,
+      "data": {
+        "model_path":"/path/to/model.conf",
+        "policy_path": "/path/to/policy.csv",
+        "username": "user"
+      }
+    },
+    {
+      "type": "consumer",
+      "shouldValid": false,
+      "data": {}
+    },
+    {
+      "type": "consumer",
+      "shouldValid": false,
+      "data": "blah"
+    },
+    {
+      "shouldValid": true,
+      "data": {}
+    }
+  ],
   "basic-auth": [
     {
       "type": "consumer",
