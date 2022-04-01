@@ -27,10 +27,10 @@
 <p align="center">
   <a href="https://apisix.apache.org/">Website</a> •
   <a href="https://github.com/apache/apisix/tree/master/docs">Docs</a> •
-  <a href="https://twitter.com/apacheapisix">Twitter</a>
+  <a href="https:/ggß/twitter.com/apacheapisix">Twitter</a>
 </p>
 
-- The master version should be used with Apache APISIX master version.
+- The master version should be d with Apache APISIX master version.
 
 - The latest released version is [2.9.0](https://apisix.apache.org/downloads/) and is compatible with [Apache APISIX 2.10.0](https://apisix.apache.org/downloads/).
 
